@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.1s linear;
+}
+
+.big-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.big-container.toggle-result {
+  background: black;
+}
+
+.container {
+  height: 8vh;
+  width: 18vh;
+  background-color: #000d6b;
+  border-radius: 1.7rem;
+  position: relative;
+}
+.container.color-Border {
+  border: 3px solid white;
+  background: black;
+}
+
+.container .circle {
+  height: 2.3rem;
+  width: 2.3rem;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.4rem;
+  cursor: pointer;
+}
+
+.container .circle.circle-right {
+  left: 5.5rem;
+  /* background-color: black; */
+}
